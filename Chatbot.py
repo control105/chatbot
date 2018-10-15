@@ -17,9 +17,9 @@ engine.setProperty('rate', rate - 25)
 
 greetings = ['hey there','hello','hi','hey!','hey']
 question = ['how far','how you dey','howdy','how are you','how are you doing']
-responses = ['Okay',"I'm fine", 'I dey',"I'm good"]
+responses = ['I dey']
 var1 = ['who made you', 'who created you']
-var2 = ['I_was_created_by_Control_right_in_his_computer.','Control','Some_random_guy_I_no_know']
+var2 = ['I was created by Control right in his computer.','Control','Some random guy I no know']
 var3 = ['what time is it','what is the time','time',"what's the time"]
 var4 = ['who are you', "what's your name",'who you be','who goes there']
 cmd1 = ['open browser','open google']
