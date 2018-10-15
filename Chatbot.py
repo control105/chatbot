@@ -89,8 +89,8 @@ while True:
         engine.runAndWait()
     elif r.recognize_google(audio) in cmd5:
         owm = pyowm.OWM('9230792fc63cdd18574db076549d3139')
-        observattion = owm.weather_at_place('Uyo', )
-        observation_list = owm.weather_around_coords()
+        observation = owm.weather_at_place('Uyo', 'NG')
+        observation_list = owm.weather_around_coords(5.0322, 7.9248)
         w = observation.get_weather()
         w.get_wind()
         w.get_humidity()
